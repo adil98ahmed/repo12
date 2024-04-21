@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f050ede-29e3-47a4-9814-a5c0918c69b2" name="Changes" comment="commit" />
+    <list default="true" id="0f050ede-29e3-47a4-9814-a5c0918c69b2" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/AdminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/AdminPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Helpers/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Helpers/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/stepDefenetion/AddUserStepDefention.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/stepDefenetion/AddUserStepDefention.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/stepDefenetion/AdminStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/stepDefenetion/AdminStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/stepDefenetion/DashBoardStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/stepDefenetion/DashBoardStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/stepDefenetion/LoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/stepDefenetion/LoginStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/stepDefenetion/MyHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/Hooks/MyHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/testDefenition/AddUserTestDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/testDefenition/AddUserTestDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/testDefenition/AdminTestDefenition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/testDefenition/AdminTestDefenition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/testDefenition/DashboardTestDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/testDefenition/DashboardTestDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/testDefenition/LoginTestDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/testDefenition/LoginTestDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/addAndDelete.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/addAndDelete.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +50,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "18",
     "last_directory_selection": "E:/testing/TechAssessment/src/main/java/Pages",
-    "last_opened_file_path": "E:/testing/TechAssessment/src/main/java"
+    "last_opened_file_path": "E:/TechAssessment/repo12"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -48,7 +62,7 @@
       <recent name="Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: xyz">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify that the user can add, search for and delete user">
     <configuration name="Feature: addAndDelete" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/addAndDelete.feature" />
@@ -68,14 +82,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Verify that the user can add, search for and delete user" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/addAndDelete.feature" />
+      <option name="GLUE" value="test.Defenitions.stepDefenetion test.Defenitions.Hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="repo12" />
+      <option name="NAME_FILTER" value="^Verify that the user can add\, search for and delete user$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that the user can add\, search for and delete user$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify that the user can add, search for and delete user" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: xyz" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/addAndDelete.feature" />
       <option name="GLUE" value="test.stepDefenetion" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="TechAssessment" />
       <option name="NAME_FILTER" value="^xyz$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^xyz$&quot;" />
+      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Scenario: xyz" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -132,6 +166,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Scenario: Verify that the user can add, search for and delete user" />
       <item itemvalue="Cucumber Java.Feature: addAndDelete" />
       <item itemvalue="Cucumber Java.Scenario: xyz" />
       <item itemvalue="JUnit.GenericRunner" />
@@ -139,6 +174,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify that the user can add, search for and delete user" />
         <item itemvalue="Cucumber Java.Scenario: xyz" />
         <item itemvalue="TestNG.AddStepDef" />
         <item itemvalue="JUnit.GenericRunner" />

@@ -15,12 +15,12 @@ public class Driver {
     }
 
     public static void startChromeDriver(String targetUrl,String driverPath) {
-        System.out.println("Starting Web chrome");
         System.setProperty("webdriver.chrome.driver", driverPath);
         if (driver == null) {
             ChromeOptions options = getChromeOptions();
             driver = new ChromeDriver(ChromeDriverService.createDefaultService(), options);
             driver.get(targetUrl);
+            driver.manage().window().maximize();
         }
 
     }

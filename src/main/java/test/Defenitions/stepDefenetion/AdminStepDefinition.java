@@ -1,9 +1,9 @@
-package test.stepDefenetion;
+package test.Defenitions.stepDefenetion;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import test.testDefenition.AdminTestDefenition;
+import test.Defenitions.testDefenition.AdminTestDefenition;
 
 public class AdminStepDefinition {
     AdminTestDefenition adminTestDefenition = new AdminTestDefenition();
@@ -17,7 +17,6 @@ public class AdminStepDefinition {
     }
     @Then("I verify that the user is added")
     public void iVerifyThatTheUserIsAdded(){
-        System.out.println(adminTestDefenition.getOldNumberOfRecords()+"   22222222222222222");
         Assert.assertEquals(adminTestDefenition.getOldNumberOfRecords()+1,adminTestDefenition.getNumberOfRecords());
     }
     @Then("I verify that the user is deleted")

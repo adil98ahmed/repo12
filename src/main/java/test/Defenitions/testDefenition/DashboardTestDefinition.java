@@ -1,4 +1,4 @@
-package test.testDefenition;
+package test.Defenitions.testDefenition;
 
 import Pages.DashboardPage;
 

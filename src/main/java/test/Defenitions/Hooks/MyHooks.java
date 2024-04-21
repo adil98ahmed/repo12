@@ -1,4 +1,4 @@
-package test.stepDefenetion;
+package test.Defenitions.Hooks;
 
 import configSetup.ConfigurationsHnadling;
 import io.cucumber.java.After;
@@ -12,8 +12,6 @@ public class MyHooks {
         if(ConfigurationsHnadling.getProperties().get("browser").toString().equalsIgnoreCase("Chrome")){
             String url = ConfigurationsHnadling.getProperties().get("targetUrl").toString();
             String driverPath = ConfigurationsHnadling.getProperties().get("driverPath").toString();
-            System.out.println("##"+url );
-            System.out.println("##"+driverPath );
             Driver.startChromeDriver(url,driverPath);
         }
     }

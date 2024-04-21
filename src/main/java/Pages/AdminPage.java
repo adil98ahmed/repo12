@@ -16,7 +16,6 @@ public class AdminPage extends PageObject{
 
     public int getNumberOfRecords(){
         String numberOfRecordsAsString = getText(numberOfRecordsText).replaceAll("[A-Za-z,\\((.+?)\\)]","").trim();
-        System.out.println(numberOfRecordsAsString);
         return Integer.parseInt(numberOfRecordsAsString);
     }
 
@@ -49,7 +48,6 @@ public class AdminPage extends PageObject{
     public void storeRecordsNumber() {
         String recordNumbers = getText(numberOfRecordsText).replaceAll("[A-Za-z,\\((.+?)\\)]","").trim();
         oldNumberOfRecords = Integer.parseInt(recordNumbers);
-        System.out.println("Stored " + oldNumberOfRecords);
     }
     public int getOldNumberOfRecords (){
         return oldNumberOfRecords;

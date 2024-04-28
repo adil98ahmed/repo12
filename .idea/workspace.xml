@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f050ede-29e3-47a4-9814-a5c0918c69b2" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/Database/testData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configrations/configBE.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/BE/Hooks/BEHOOKS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/BE/stepDefention/BECommonStepDefenition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/BE/testDefenition/BECommonTestDefenition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/E2E/Hooks/E2EHooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/Helpers/JSONHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/addDeleteAPI.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configrations/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configrations/configE2E.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/configSetup/ConfigurationsHnadling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configSetup/ConfigurationsHnadling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Defenitions/Hooks/MyHooks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Defenitions/stepDefenetion/AddUserStepDefention.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/E2E/stepDefenetion/AddUserStepDefention.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Defenitions/stepDefenetion/AdminStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/E2E/stepDefenetion/AdminStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Defenitions/stepDefenetion/DashBoardStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/E2E/stepDefenetion/DashBoardStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Defenitions/stepDefenetion/LoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/E2E/stepDefenetion/LoginStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Defenitions/testDefenition/AddUserTestDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/E2E/testDefenition/AddUserTestDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Defenitions/testDefenition/AdminTestDefenition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/E2E/testDefenition/AdminTestDefenition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Defenitions/testDefenition/DashboardTestDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/E2E/testDefenition/DashboardTestDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Defenitions/testDefenition/LoginTestDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/E2E/testDefenition/LoginTestDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/testData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Database/testData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Defenitions/BE/testDefenition/BECommonTestDefenition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/BE/testDefenition/BECommonTestDefenition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/Helpers/JSONHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Helpers/JSONHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/addDeleteAPI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/addDeleteAPI.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

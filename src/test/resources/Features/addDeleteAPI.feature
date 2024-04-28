@@ -7,7 +7,7 @@ Feature: Add and Delete
     Then I verify that the status code is "200"
     And I store the id of created user
     And I clear All
-    Given I have the uer credentials for user
+    And I have the uer credentials for user
     When I set url "url" and end point "endPoint"
     And I build body with new ID
     And I perform "Delete" request

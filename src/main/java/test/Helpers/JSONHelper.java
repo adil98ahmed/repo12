@@ -20,7 +20,6 @@ public class JSONHelper {
             FileReader fileReader = new FileReader(".//.//.//.//Database//"+fileName);
             Object obj  =  jsonParser.parse(fileReader);
             JSONObject object = (JSONObject) obj;
-            System.out.println(object);
             return object;
 
         }  catch (IOException | ParseException e) {

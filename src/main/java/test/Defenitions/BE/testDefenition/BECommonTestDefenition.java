@@ -61,7 +61,6 @@ public class BECommonTestDefenition {
         }
     }
     public int getStatusCode(){
-        System.out.println(response.getStatusCode());
         return response.getStatusCode();
     }
     public void storeIdOfUser(){

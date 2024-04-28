@@ -7,8 +7,7 @@ import java.util.Properties;
 
 public class ConfigurationsHnadling {
     private static Properties properties ;
-    private static final String configPath  = "configrations/config.properties";
-    public static void initializeOfConfiguration(){
+    public static void initializeOfConfiguration(String configPath){
         properties = new Properties();
         try {
             InputStream inputStream = new FileInputStream(configPath);

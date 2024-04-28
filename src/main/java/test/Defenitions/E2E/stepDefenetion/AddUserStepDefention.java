@@ -1,8 +1,8 @@
-package test.Defenitions.stepDefenetion;
+package test.Defenitions.E2E.stepDefenetion;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
-import test.Defenitions.testDefenition.AddUserTestDefinition;
+import test.Defenitions.E2E.testDefenition.AddUserTestDefinition;
 
 
 public class AddUserStepDefention {

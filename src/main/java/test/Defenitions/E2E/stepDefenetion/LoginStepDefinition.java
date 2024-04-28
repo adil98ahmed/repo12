@@ -1,7 +1,7 @@
-package test.Defenitions.stepDefenetion;
+package test.Defenitions.E2E.stepDefenetion;
 
 import io.cucumber.java.en.Given;
-import test.Defenitions.testDefenition.LoginTestDefinition;
+import test.Defenitions.E2E.testDefenition.LoginTestDefinition;
 
 public class LoginStepDefinition {
     LoginTestDefinition loginTestDefinition = new LoginTestDefinition();

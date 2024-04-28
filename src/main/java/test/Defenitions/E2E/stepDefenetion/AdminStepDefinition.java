@@ -1,9 +1,9 @@
-package test.Defenitions.stepDefenetion;
+package test.Defenitions.E2E.stepDefenetion;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import test.Defenitions.testDefenition.AdminTestDefenition;
+import test.Defenitions.E2E.testDefenition.AdminTestDefenition;
 
 public class AdminStepDefinition {
     AdminTestDefenition adminTestDefenition = new AdminTestDefenition();

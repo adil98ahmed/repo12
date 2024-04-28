@@ -1,4 +1,4 @@
-package test.Defenitions.testDefenition;
+package test.Defenitions.E2E.testDefenition;
 
 
 import Pages.AddUserPage;

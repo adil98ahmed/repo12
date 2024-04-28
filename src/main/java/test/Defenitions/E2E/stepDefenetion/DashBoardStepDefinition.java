@@ -1,7 +1,7 @@
-package test.Defenitions.stepDefenetion;
+package test.Defenitions.E2E.stepDefenetion;
 
 import io.cucumber.java.en.When;
-import test.Defenitions.testDefenition.DashboardTestDefinition;
+import test.Defenitions.E2E.testDefenition.DashboardTestDefinition;
 
 public class DashBoardStepDefinition {
     DashboardTestDefinition dashboardTestDefinition = new DashboardTestDefinition();

@@ -7,9 +7,7 @@
     <list default="true" id="0f050ede-29e3-47a4-9814-a5c0918c69b2" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Database/testData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Database/testData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Defenitions/BE/testDefenition/BECommonTestDefenition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Defenitions/BE/testDefenition/BECommonTestDefenition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Helpers/JSONHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Helpers/JSONHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/addDeleteAPI.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/addDeleteAPI.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configrations/configBE.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configrations/configBE.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

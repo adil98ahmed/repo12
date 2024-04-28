@@ -1,7 +1,9 @@
 {
-  "username":"adel1998Ahmedb",
-  "password":"123456Adel",
-  "status":true,
-  "userRoleId":1,
-  "empNumber":136
+  "firstName":"Adel",
+  "middleName":"Ahmed",
+  "lastName":"Hashem",
+  "email":"adel@ahmed.hashem",
+  "contactNumber":"0115913853",
+  "dateOfApplication":"2024-04-28",
+  "vacancyId":5
 }
